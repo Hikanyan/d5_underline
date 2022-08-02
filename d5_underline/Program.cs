@@ -6,6 +6,11 @@ class Program
     static void Main()
     {
         var line = Console.ReadLine();
-        Console.WriteLine("XXXXXX");
+        Console.WriteLine(line);
+        var n = line.Length;
+        for(int i = 0; i < n; i++)
+        {
+            Console.Write("^");
+        }
     }
 }
